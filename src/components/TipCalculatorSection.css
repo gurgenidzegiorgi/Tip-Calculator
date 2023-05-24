@@ -1,0 +1,93 @@
+.TipCalculatorSection {
+  padding: 32px;
+
+}
+
+.tipAmountDiv {
+  display: grid;
+  gap: 17px;
+  grid-template-columns: 1fr 50%;
+}
+.tipAmountDiv button,
+.tipAmountDiv input{
+  font-size: 24px;
+  line-height: 36px;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFFFFF;
+  background: #00474B;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s
+}
+
+.tipAmountDiv button:hover{
+  background: #9FE8DF;
+  color: #00474B;;
+}
+.tipAmountDiv button:focus-visible {
+  outline: none;
+}
+
+
+.tipAmountDiv input {
+  text-align: right;
+  color: #547878;
+  background: #F3F9FA;
+  padding-right: 15px;
+}
+.tipAmountDiv input:focus-visible,
+.inputDiv input:focus-visible {
+  outline: 2px solid #26C2AE;
+}
+
+.tipDiv {
+  margin: 40px 0;
+}
+
+.tipDiv p {
+  margin-bottom: 16px;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+}
+
+.inputDiv label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5E7A7D;
+}
+
+.inputDiv input {
+  width: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: right;
+  background: #F3F9FA;
+  color: #00474B;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 19px;
+}
+
+.inputDiv img {
+  position: absolute;
+  bottom: 19px;
+    left: 19px;
+}
+
+.inputContainer p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+right: 0;
+  color: #E17457;
+}
