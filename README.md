@@ -2,16 +2,11 @@
 
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -22,13 +17,13 @@
 ![project Preview](./src/assets/images/desktop-preview.jpg 'Project Preview')
 
 
-### Links
+## My process
+
+### #useful-resources
 
 - Fonts URL: [Space Mono](https://fonts.google.com/specimen/Space+Mono?query=spac)
 - Icons URL: [Fav-Icon](https://icons8.com/)
 - Resources: [ChatGPT](https://chat.openai.com/)
-
-## My process
 
 ### Built with
 
@@ -67,5 +62,5 @@ function HandleCostumTip(e) {
 ## Author
 
 - GitHub Repo - [Tip Calculator](https://github.com/gurgenidzegiorgi/Tip-Calculator)
-- Live URL - [Vercel](https://www.frontendmentor.io/profile/yourusername)
+- Live URL - [Vercel](https://tip-calculator-gurgenidzegiorgi.vercel.app/)
 - Author - [Giorgi Gurgenidze](https://www.linkedin.com/in/george-gurgenidze-5801501a0/)
